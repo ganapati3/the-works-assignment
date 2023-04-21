@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.bg-container {
+    min-height: 100vh;
+    background-color: #ffa1a9;
+    padding: 10px;
+    color: #2a2a63;
+    min-width: 100%;
+}
+
+.icon-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #2a2a63;
+    padding: 10px;
+    width: 90px;
+    height: 90px;
+    border-radius: 45px;
+    color: #2a2a63;
+    font-size: 40px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+
+}
+
+.icon-des-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon-des {
+    font-size: 11px;
+}
+
+.address-section {
+    border-left: 3px solid #2a2a63;
+    height: 110%;
+}
+
+.hr {
+    height: 3px;
+    background-color: #2a2a63;
+    margin-left: 90px;
+}
+
+.work-title {
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.work-des {
+    font-size: 10px;
+}
+
+.skill-container {
+    width: 35vw;
+}
+
+.skill-points-container {
+    font-size: 8px;
+    width: 50%;
+    text-align: left;
+}
+
+.interest-icon {
+    background-color: #2a2a63;
+    color: #ffa1a9;
+    margin-left: 25px;
+}
+
+@media screen and (max-width:768px) {
+    .hr {
+        margin: 0px;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .address-section {
+        border: none;
+        text-align: center;
+    }
+
+    .heading-container {
+        text-align: center;
+    }
+
+    .skill-container {
+        width: 45vw;
+    }
+
+    .icon-container {
+        height: 50px;
+        width: 50px;
+        border-radius: 25px;
+        font-size: 20px;
+    }
+
+    .skill-points-container {
+        font-size: 5px;
+    }
+
+    .icon-des {
+        font-size: 8px;
+    }
+
+    .interest-icon {
+        margin-left: 10px;
+    }
+
+    .work-title {
+        font-size: 12px;
+    }
+}
